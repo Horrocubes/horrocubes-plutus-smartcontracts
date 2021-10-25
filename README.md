@@ -15,8 +15,7 @@ This repository contains the Plutus code for the on chain and off chain parts of
 ### Setting up the environment
 
 If you already have a Haskell development environment set up, feel free to skip this section, otherwise follow along, we will set up a suitable environment for compiling plutus scripts using Nix.
-
-  
+ 
 
 We will use Nix to provide both Haskell and Cabal, but if you desire, you could also rely on ghcup to manage these dependencies. However, we won't cover this. You can refer to the official [ghcup](https://gitlab.haskell.org/haskell/ghcup-hs) site for instructions on that.
 
@@ -102,5 +101,7 @@ $ cabal build
 
 License
 -------
+
+Note: The instructions on how to set the environment were taken from IOHK repository: https://github.com/input-output-hk/Alonzo-testnet/blob/main/Alonzo-tutorials/Plutus_transactions_tutorial.md
 
 This contents of this repository is released under the terms of the Apache-2.0 license. See [LICENSE](LICENSE) for more information or see https://www.apache.org/licenses/LICENSE-2.0.html.  
